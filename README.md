@@ -11,6 +11,7 @@
 - ViewBinding <br>
 - Navigation <br>
 - Glide <br>
+- LottieFile
 </h3>
 
 <h1>Images:</h1>
