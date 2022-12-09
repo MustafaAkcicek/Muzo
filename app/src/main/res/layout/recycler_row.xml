@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ml"
+    android:layout_height="400dp">
+
+
+    <LinearLayout
+        android:background="@drawable/border2"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAlignment="textEnd"
+            android:background="@drawable/border1"
+            android:id="@+id/recyclerEmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User name"
+            android:fontFamily="@font/cyberpunk"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:textSize="22sp"/>
+
+        <ImageView
+
+            android:id="@+id/recyclerImageView"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border1"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            />
+        <TextView
+            android:background="@drawable/border1"
+            android:id="@+id/recyclerCommentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adventur"
+            android:text="test test test"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

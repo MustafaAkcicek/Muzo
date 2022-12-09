@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/ml"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/signOutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/cyberpunk"
+            android:text="Sign Out" />
+
+        <Button
+            android:id="@+id/changeThemeButton"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/cyberpunk"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="change Theme"/>
+
+    </LinearLayout>
+
+
+</layout>
